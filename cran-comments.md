@@ -1,13 +1,13 @@
 ## Resubmission 
 
-This is a resubmission for a version update.
+This is a resubmission to update the CITATION file.
 
 ## Test environments
 
-* Ubuntu precise 12.04.5 (on travis-ci), R 3.4.0
-* local Windows 7 install, R 3.4.0
-* local Windows 7 install, Current r-devel (2017-06-20 r72822)
-* Windows install (on AppVeyor), R 3.4.0 Patched (2017-05-25 r72746)
+* Ubuntu trusty 14.04.5 (on travis-ci), R 3.5.2
+* local Windows 7 install, R 3.5.1
+* local Windows 7 install, Current r-devel (2019-04-03 r76308)
+* Windows install (on AppVeyor), R 3.5.3 Patched (2019-03-11 r76275)
 * win-builder [http://win-builder.r-project.org/](http://win-builder.r-project.org/) (devel and release)
 
 ## R CMD check results
@@ -16,4 +16,4 @@ There were no ERRORs, WARNINGs, or NOTEs.
   
 ## Downstream dependencies
 
-* PredictTestbench: No ERRORs or WARNINGs found.
+* WindCurves: No ERRORs, WARNINGs, or NOTEs found.

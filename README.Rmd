@@ -42,7 +42,7 @@ install.packages('imputeTestbench')
 
 The core function is `impute_errors()`.  See the help documentation for more details.
 
-```{r message = F}
+```{r message = F, warning = F}
 library(imputeTestbench)
 a <- impute_errors(data = nottem)
 a
@@ -51,7 +51,9 @@ plot_errors(a, plotType = 'line')
 
 #### Citation
 
-Neeraj Bokde and Marcus W. Beck (2016). imputeTestbench: Test Bench for the comparison of imputation methods. R package version 3.0. http://www.neerajbokde.com/cran/imputetestbench
+Beck MW, Bokde N, Ascencio-Cortes G, Kulat K (2018). "R package imputeTestbench to Compare Imputation Methods for
+Univarite Time Series." _The R Journal_, *10*(1), 218-233. doi: 10.32614/RJ-2018-024 (URL:
+http://doi.org/10.32614/RJ-2018-024).
 
 #### Bug reports 
 
