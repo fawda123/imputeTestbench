@@ -1,11 +1,5 @@
 ---
-output:
-  html_document:
-    keep_md: yes
-    toc: no
-    self_contained: yes
-  pdf_document:
-    toc: yes
+output: github_document
 ---
 
 ## imputeTestbench
@@ -38,12 +32,20 @@ The current release can be installed from CRAN:
 install.packages('imputeTestbench')
 ```
 
+Load the package after installation:
+
+```{r, eval = FALSE}
+library(imputeTestbench)
+```
+```{r, echo = F, message = F, warning = F}
+devtools::load_all()
+```
+
 #### Basic use
 
 The core function is `impute_errors()`.  See the help documentation for more details.
 
 ```{r message = F, warning = F}
-library(imputeTestbench)
 a <- impute_errors(data = nottem)
 a
 plot_errors(a, plotType = 'line')
