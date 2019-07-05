@@ -1,6 +1,6 @@
 ## Resubmission 
 
-This is a resubmission for updates to a package dependency, imputeTS v3.0
+This is a resubmission for updates to a new release of a package dependency, imputeTS v3.0
 
 ## Test environments
 
@@ -12,8 +12,10 @@ This is a resubmission for updates to a package dependency, imputeTS v3.0
 
 ## R CMD check results
 
-There were no ERRORs, WARNINGs, or NOTEs.  
-  
+There was one ERROR on win-builder (for devel and release): Error: object 'na_interpolation' is not exported by 'namespace:imputeTS'.
+
+The error is likely from an older version of imputeTS that is installed on win-builder.  The checks pass with v3.0 of imputeTS for all other test environmented listed above.
+
 ## Downstream dependencies
 
 * WindCurves: No ERRORs, WARNINGs, or NOTEs found.
