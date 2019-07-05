@@ -6,7 +6,7 @@ This is a resubmission for updates to a new release of a package dependency, imp
 
 * Ubuntu xenial 16.04.6 (on travis-ci), R 3.6.0
 * local Windows 7 install, R 3.6.0
-* local Windows 7 install, Current r-devel (2019-06-27 r76748)
+* local Windows 7 install, Current r-devel (2019-07-05 r76780)
 * Windows install (on AppVeyor), R 3.6.0 Patched (2019-06-23 r76734)
 * win-builder [http://win-builder.r-project.org/](http://win-builder.r-project.org/) (devel and release)
 
