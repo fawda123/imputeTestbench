@@ -1,14 +1,9 @@
 
 ## imputeTestbench
 
-#### *Neeraj Bokde, <neerajdhanraj@gmail.com>, Marcus W. Beck, <beck.marcus@epa.gov>*
+#### *Neeraj Bokde, <neerajdhanraj@gmail.com>, Marcus W. Beck, <mbafs2012@gmail.com>*
 
-[![Travis-CI Build
-Status](https://travis-ci.org/fawda123/imputeTestbench.svg?branch=master)](https://travis-ci.org/fawda123/imputeTestbench)
-
-[![AppVeyor Build
-Status](https://ci.appveyor.com/api/projects/status/github/fawda123/imputeTestbench?branch=master&svg=true)](https://ci.appveyor.com/project/fawda123/imputeTestbench)
-
+[![R-CMD-check](https://github.com/fawda123/imputeTestbench/workflows/R-CMD-check/badge.svg)](https://github.com/fawda123/imputeTestbench/actions)
 [![Downloads from the RStudio CRAN
 mirror](http://cranlogs.r-pkg.org/badges/grand-total/imputeTestbench)](https://CRAN.R-project.org/package=imputeTestbench)
 
@@ -53,24 +48,24 @@ a
     ## [1] 10 20 30 40 50 60 70 80 90
     ## 
     ## $na.approx
-    ## [1]  0.8745735  1.3140905  2.0493222  2.5666394  3.4916234  4.8094359
-    ## [7]  7.0808430  8.6298858 10.3312949
+    ## [1]  0.9745496  1.3856628  1.9129615  2.6498481  3.7849822  5.0208590  6.6343677
+    ## [8]  8.4455223 10.3949327
     ## 
     ## $na.interp
-    ## [1]  0.7632089  1.0495005  1.3580821  1.6699538  1.9051306  2.1161712
-    ## [7]  2.3753439  2.7078472 10.3312949
+    ## [1]  0.8221107  1.1478071  1.4159549  1.6452581  1.9016976  2.0818991  2.3455729
+    ## [8]  2.6274192 10.3949327
     ## 
     ## $na_interpolation
-    ## [1]  0.8745735  1.3140905  2.0493222  2.5666394  3.4916234  4.8094359
-    ## [7]  7.0808430  8.6298858 10.3312949
+    ## [1]  0.9745496  1.3856628  1.9129615  2.6498481  3.7849822  5.0208590  6.6343677
+    ## [8]  8.4455223 10.3949327
     ## 
     ## $na.locf
-    ## [1]  1.679724  2.794649  3.861797  4.918532  6.209940  7.794973  9.441852
-    ## [8] 10.466573 12.047612
+    ## [1]  1.932793  3.029201  3.898818  5.166109  6.233874  7.593585  9.028926
+    ## [8] 10.787879 11.841940
     ## 
     ## $na_mean
-    ## [1] 2.751165 3.822438 4.755763 5.485506 6.104211 6.620665 7.277600 7.737999
-    ## [9] 8.305569
+    ## [1] 2.634303 3.763457 4.630139 5.450282 6.089774 6.660770 7.192983 7.660656
+    ## [9] 8.323775
 
 ``` r
 plot_errors(a, plotType = 'line')
